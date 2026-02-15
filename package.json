@@ -1,7 +1,7 @@
 {
-  "name": "@module-federation/vite",
-  "version": "1.11.1",
-  "description": "Vite plugin for Module Federation",
+  "name": "@cipsys/module-federation-vite",
+  "version": "1.11.1-patched.1",
+  "description": "Vite plugin for Module Federation (patched)",
   "type": "module",
   "source": "src/index.ts",
   "main": "./lib/index.cjs",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/module-federation/vite.git"
+    "url": "git+https://github.com/cipsys/vite.git"
   },
   "keywords": [
     "vite",
@@ -74,5 +74,8 @@
     "vite": "^5.4.3",
     "vitest": "^2.1.1",
     "wait-on": "^8.0.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
